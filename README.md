@@ -14,7 +14,7 @@ minikube start
 
 minikube dashboard
 
-cd K8S/mongodb
+cd K8s/mongodb
 
 kubectl create -f mongo-service.yml
 
