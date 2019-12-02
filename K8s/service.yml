@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: spring-boot-service
+  name: spring-mongodb-crud-application
 spec:
   ports:
     - port: 8080
       targetPort: 8080
   selector:
-    app: spring-boot-service
+    app: spring-mongodb-crud-application
   type: NodePort
