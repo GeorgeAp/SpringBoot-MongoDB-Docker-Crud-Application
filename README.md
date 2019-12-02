@@ -30,7 +30,7 @@ kubectl describe service spring-mongodb-crud-application
 
 minikube service spring-mongodb-crud-application
 
-this will lunch the application in your browser
+this will launch the application in your browser
 
 Finally, to stop, use:
 minikube stop
